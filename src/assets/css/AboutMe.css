@@ -1,0 +1,60 @@
+@media only screen and (min-width:1024px) {
+    .introduceMeWrap {
+        width: 64rem;
+        margin: 3% auto;
+    }
+
+    .introducemyself {
+        padding: 0 0 3% 0;
+        border-bottom: 1px solid black;
+    }
+
+    .myimgWrap {
+        width: 64rem;
+        margin: 0 25%;
+    }
+
+    .introduceTextWrap {
+        width: 55rem;
+        margin: 0 25%;
+        border: 2px solid #00000029;
+        border-radius: 20px;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+
+    .myimg {
+        width: 10rem;
+    }
+
+    .techstackWrap,
+    .careerWrap {
+        width: 64rem;
+        margin: 3% auto;
+        border-top: 1px solid black;
+    }
+
+    .findphoneWrap,
+    .FellanetWrap,
+    .DentalWrap,
+    .TogetherWrap,
+    .WiseWrap {
+        padding: 1%;
+    }
+
+    .techicon,
+    .careericon {
+        width: 48px;
+    }
+
+    li {
+        font-family: 'intelone-mono-font-family-regular';
+        list-style-type: square;
+        margin: 2% 4%;
+    }
+
+    .mindmap {
+        margin: 0 5% 0 0;
+
+        text-shadow: 0 1px 2px;
+    }
+}
