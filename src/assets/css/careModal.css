@@ -1,0 +1,157 @@
+@media only screen and (min-width: 1024px) {
+  .noneModal {
+    display: none;
+  }
+
+  .showModal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: "intelone-mono-font-family-regular";
+  }
+
+  .CloseButton {
+    cursor: pointer;
+  }
+  /* modal or popup */
+  .modal-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "intelone-mono-font-family-regular";
+  }
+
+  .careTitleSection,
+  .careDurationSection,
+  .careissuemanagementSection,
+  .careCategorySection {
+    display: flex;
+    margin: 3% 0;
+  }
+
+  /* e-Centric Care Image Section */
+
+  .ecentricCareImageSection {
+    height: 50%;
+  }
+
+  .ecentricCareImage {
+    width: 100%;
+  }
+
+  /* CareExplaneSection CSS */
+
+  .caretitleSub,
+  .careDurationSub,
+  .careissueSub,
+  .carecategorySub {
+    align-items: center;
+    background-color: rgb(200, 239, 250);
+    border: 1px solid #212121;
+    border-radius: 4px;
+    color: #212121;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1% 1% 1%;
+    width: fit-content;
+    color: rgb(33, 33, 33);
+  }
+
+  .caretitle,
+  .careDuration,
+  .careissue,
+  .carecategory {
+    width: 200px;
+    text-align: left;
+    margin: auto 0;
+    font-weight: bold;
+  }
+
+  .line {
+    border-bottom: 1px solid black;
+  }
+
+  /* Description CSS */
+
+  .MainTest_Item_Wrap {
+    margin: 0 0 3% 0;
+  }
+
+  .MainTestItem_Title {
+    margin: 2% 0;
+    text-align: left;
+  }
+
+  .descriptionImgWrap {
+    margin: 3% 0 0 0;
+  }
+
+  /* TestCase CSS */
+
+  .MainTestItem_Description_Wrap {
+    margin: 0 0 1% 0;
+  }
+
+  .TestCaseTitle {
+    text-align: left;
+  }
+
+  .MainTestItem_Description {
+    text-align: left;
+  }
+
+  .CareTestCaseDescription,
+  .TestCase_Info {
+    text-align: left;
+  }
+  .TestCase_Info {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .TestCase_Info {
+    color: red;
+  }
+
+  .testCaseImgWrap {
+    margin: 0 0 3% 0;
+  }
+
+  .CareTestCaseImg {
+    width: 100%;
+    margin: 3% 0 0 0;
+  }
+
+  /* Issue Css */
+
+  .CareIssueImg {
+    width: 100%;
+    padding: 3% 0 0 0;
+  }
+
+  .Issue_Info {
+    text-align: left;
+  }
+
+  /* TestResult */
+
+  .TestResultImgWrap {
+  }
+  .eCentricCareResultImg {
+    width: 100%;
+  }
+  .eCentricCareTestResultImg {
+    width: 100%;
+  }
+}

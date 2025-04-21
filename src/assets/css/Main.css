@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url(./Reset.css);
+
+@media only screen and (min-width:1024px) {
+    * {
+        font-family: 'intelone-mono-font-family-regular';
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-family: 'intelone-mono-font-family-regular';
+    }
+
+    .main {
+        width: 64rem;
+        margin: 0 auto;
+        display: flex;
+        gap: 3px;
+    }
+
+    .header {
+        width: 64rem;
+        margin: 0 auto;
+    }
+
+    .category {
+        text-align: right;
+        width: 40%;
+        padding: 1% 0 0 43%;
+    }
+
+    .home,
+    .aboutme,
+    .project,
+    .qna {
+        margin: 0 5% 0 0;
+        text-shadow: 0 1px 2px;
+    }
+
+    .home:hover,
+    .aboutme:hover,
+    .project:hover,
+    .qna:hover {
+        text-shadow: 0 1px 2px gray;
+
+    }
+
+
+    .logoWrap {
+        width: 15%;
+    }
+
+    .logoWrap>a {
+        display: flex;
+    }
+
+    .logoimg {
+        color: transparent;
+        height: 45px;
+        width: 45px;
+        border-radius: 999px;
+    }
+
+    .logoname {
+        padding: 8% 0 0 7%;
+        font-size: 1.3rem;
+        text-shadow: 0 1px 2px
+    }
+
+    .main_bar {
+        position: relative;
+        width: 35rem;
+        height: 50%;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        margin: 10% 0;
+
+
+    }
+
+    .main_bar:hover {
+        transform: perspective(1500px) rotateY(30deg);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+    }
+
+    .jeong_img {
+        width: 100%;
+    }
+
+    .AboutMe_Field,
+    .Birth_Field,
+    .Location_Field,
+    .Phone_Field,
+    .Email_Field,
+    .School_Field {
+        display: flex;
+        display: -ms-flexbox;
+        flex-flow: row nowrap;
+        width: 100%;
+        margin: 5% 0 0 0;
+        opacity: .8;
+    }
+
+    .user,
+    .Birth,
+    .Location,
+    .Phone,
+    .Email,
+    .School {
+        width: 20%;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .AboutMe_Text_Field,
+    .Birth_Text_Field,
+    .Location_Text_Field,
+    .Phone_Text_Field,
+    .Email_Text_Field,
+    .School_Text_Field {
+        display: block;
+    }
+
+    .usericon,
+    .Birthicon,
+    .Locationicon,
+    .Phoneicon,
+    .Emailicon,
+    .Schoolicon {
+        width: 50%;
+    }
+
+    .MainTextWrap {
+        width: 100%;
+        margin: 12% 0;
+    }
+
+    .MainTextWrap>.HelloTitle {
+        text-align: center;
+    }
+
+    .MainTextWrap>.subTextWrap,
+    .linkWrap {
+        margin: 0 0 0 10%;
+    }
+
+    .blog,
+    .git,
+    .about {
+        display: flex;
+    }
+
+    .blog>.blogicon,
+    .giticon,
+    .aboutmeicon {
+        width: 5%;
+        padding: 2% 0;
+    }
+}
