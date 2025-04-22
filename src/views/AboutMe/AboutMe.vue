@@ -16,7 +16,7 @@
     <!-- introducetextWrap -->
     <div class="introduceTextWrap">
       <h2 style="margin: 3% 2%">QA/QE 테스터 김정환 입니다</h2>
-      <p style="margin: 3% 2%">4년차 QA/QE 테스터 입니다</p>
+      <p style="margin: 3% 2%">5년차 QA/QE 테스터 입니다</p>
       <p style="margin: 3% 2%">
         테스터 이전에 짧게나마 Web개발 경력이 있습니다
       </p>
@@ -43,8 +43,7 @@
         <li><p>Singlex ALM으로 TestCase 생성,유지관리 경험이 있습니다</p></li>
         <li>
           <p>
-            Jira를 통해 이슈관리를 하다가 현재는 LG CNS에서 제작한 Singlex
-            ALM으로 이슈관리를 하고 있습니다
+            Jira와 LG CNS에서 제작한 Singlex ALM으로 이슈관리 경험이 있습니다
           </p>
         </li>
         <li>
@@ -52,8 +51,15 @@
             UX 시나리오 문서와 제품의SRS(Software Requirements Specification)를
             참고 하고 Xmind 프로그램을 통해 기능별로 작성할 TestCase를 Mind
             Map를 그립니다
-            <a class="mindmap" href="/Project/">Mind Map 보러가기</a>
           </p>
+        </li>
+        <li>
+          <p>
+            고객사 담당자 분들과 일정 조율 및 Issue Review를 진행 하고 있습니다
+          </p>
+        </li>
+        <li>
+          <p>고객사 개발팀과 Issue Check와 Issue 개선안을 전달 하고 있습니다</p>
         </li>
         <li>
           <p>파트원들의 능력에 따라 TestCase 분배와 일정을 관리하고 있습니다</p>
@@ -71,7 +77,8 @@
         </li>
         <li>
           <p>
-            MS SQL를 사용 하여 회원가입 및 로그인 화면을 제작 한 경험이 있습니다
+            MS SQL과 Vue를 사용 하여 회원가입 및 로그인 화면및 기능을 제작/구현
+            한 경험이 있습니다
           </p>
         </li>
       </ul>
@@ -96,6 +103,11 @@
           <li>
             EV 1Part, 2Part 전체적인 근태 관리, 신규입사자 교육 등의 업무를 하고
             있습니다
+          </li>
+          <li>EV Charger Solution Web Page(e-Centric)를 검증 하고 있습니다</li>
+          <li>국내향 급속,완속 Model S/W 검증 업무를 진행 하고 있습니다</li>
+          <li>
+            외국향(북미,유럽) 급속,완속 Model S/W 검증 업무를 진행 하고 있습니다
           </li>
         </ul>
       </div>

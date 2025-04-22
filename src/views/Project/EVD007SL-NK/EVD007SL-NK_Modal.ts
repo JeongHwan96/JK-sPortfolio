@@ -3,9 +3,9 @@ import { Component } from "vue-property-decorator";
 
 @Component({})
 export default class ManagerModalComponent extends Vue {
-  managermodalCheck: boolean = false;
+  NKmodalCheck: boolean = false;
 
-  managermodalOpen() {
-    this.$emit("sendmanagermodalOpen", this.managermodalCheck);
+  NKmodalOpen() {
+    this.$emit("sendmanagermodalOpen", this.NKmodalCheck);
   }
 }
