@@ -99,7 +99,7 @@
                   showModal: isEVD007SLNKShow === true,
                   noneModal: EVD007SLNKmodalcheck === false,
                 }"
-                @sendmodalOpen="getModaldata"
+                @sendNKmodalOpen="getNKModaldata"
               ></EVD007SLModal>
             </div>
             <!-- EVW007SK Section -->
@@ -125,7 +125,7 @@
                   managershowModal: isManagerShow === true,
                   managernoneModal: managermodalcheck === false,
                 }"
-                @sendmanagermodalOpen="getmanagerModaldata"
+                @sendNKmodalOpen="getNKModaldata"
               ></ManagerModal>
             </div>
           </div>

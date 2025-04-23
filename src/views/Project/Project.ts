@@ -40,4 +40,9 @@ export default class ProjectComponent extends Vue {
     this.managermodalcheck = managermodalcheck;
     this.isManagerShow = false;
   }
+
+  getNKModaldata(NKmodalCheck: boolean) {
+    this.EVD007SLNKmodalcheck = NKmodalCheck;
+    this.isEVD007SLNKShow = false;
+  }
 }

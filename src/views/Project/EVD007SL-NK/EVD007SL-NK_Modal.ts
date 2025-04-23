@@ -6,6 +6,6 @@ export default class ManagerModalComponent extends Vue {
   NKmodalCheck: boolean = false;
 
   NKmodalOpen() {
-    this.$emit("sendmanagermodalOpen", this.NKmodalCheck);
+    this.$emit("sendNKmodalOpen", this.NKmodalCheck);
   }
 }
