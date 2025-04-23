@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1024px) {
+  .introduceQnAWrap {
+    width: 64rem;
+    margin: 3% auto;
+  }
+  .qna-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .title {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+    text-align: center;
+  }
+
+  .qna-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  .question {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 0 0 10px 0;
+  }
+  .answer {
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 2% 0;
+  }
+}

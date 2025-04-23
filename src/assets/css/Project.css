@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1024px) {
+  .introducemyproject {
+    padding: 0 0 3% 0;
+    border-bottom: 1px solid black;
+  }
+
+  .one_project_section,
+  .Second_project_section {
+    margin: 5% 0;
+    display: flex;
+  }
+
+  .ecentriccareimg,
+  .ecentricmanagerimg {
+    width: 40%;
+  }
+
+  .ecentric_care_Section,
+  .ecentic_manager_Section {
+    text-align: center;
+  }
+
+  .ecentriccareimg,
+  .ecentricmanagerimg {
+    width: 80%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+  }
+
+  .ecentriccareimg:hover,
+  .ecentricmanagerimg:hover {
+    box-shadow: 0 0 11px rgba(180, 135, 135, 0.541);
+  }
+
+  .Web {
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    background: linear-gradient(
+      rgba(240, 210, 100, 1) 0%,
+      rgba(229, 201, 96, 1) 100%
+    );
+    font-family: "intelone-mono-font-family-regular";
+  }
+
+  .showModal {
+    display: block;
+  }
+
+  .noneModal {
+    display: none;
+  }
+
+  /* One Project Section */
+  .ecentric_Section {
+    display: flex;
+  }
+
+  /* Second Project Section */
+  .EV_Charger_Wrap {
+    display: flex;
+    margin: 0 auto;
+  }
+  .EVW007SL-NK_Section,
+  .EVW007SK_Section {
+    text-align: center;
+  }
+}
